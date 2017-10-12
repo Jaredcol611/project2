@@ -1,6 +1,89 @@
 body{
-  height: 1000px;
+  height: auto;
   background-image: url(../images/brickwall.jpg);
   background-repeat: repeat;
 }
+.navbar{
+  margin-bottom: 0;
+  border-bottom: 1px solid #dadfea;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.75);
+    .navbar:hover{
+      text-shadow: 1px 1px 2px black;
+    }
+}
+.welcome-content{
+  height: auto;
+  background-color: #FFFFFF;
+  .welcome-text{
+    color: #682C18;
+  }
+  .welcome-p{
+    font-size: 20px;
+    color: #6C2B19;
+  }
+  .welcome-burger{
+    margin-bottom: 10px;
+    border: 2px solid #6C2B19;
+    box-shadow: 0 0 10px -1px rgba(0,0,0,0.75);
+  }
 
+  .divide-bar{
+    height: 10px;
+    width: 100%;
+    background-color: #6C2B19;
+  }
+  .locations{
+    border-right: 10px solid #6C2B19;
+    margin: 10px 0 10px 0;
+  }
+  .hours-div{
+    text-align: center;
+    margin: 10px 0 10px 0;
+    .hours-head{
+      font-size: 40px;
+      }
+    .hours{
+      font-size: 25px;
+    }
+  }
+}
+.footer{
+  padding: 0;
+  box-shadow: 0 -2px 8px 0 rgba(0,0,0,0.75);
+  .footer-panel{
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .locations{
+    border: none !important;
+  }
+  .hours-head{
+    padding-top: 20px;
+    border-top: 10px solid #6C2B19;
+    margin-top: 0;
+  }
+}
+
+.foodpic{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: 2px solid #6C2B19;
+  box-shadow: 0 0 10px -1px rgba(0,0,0,0.75);
+}
+.foodpic1{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: 2px solid #6C2B19;
+  box-shadow: 0 0 10px -1px rgba(0,0,0,0.75);
+  height: 169px;
+}
+.imgtext{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
