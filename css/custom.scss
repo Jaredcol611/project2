@@ -1,3 +1,4 @@
+        // body, navbar, and footer CSS
 body{
   height: auto;
   background-image: url(../images/brickwall.jpg);
@@ -12,6 +13,18 @@ body{
       text-shadow: 1px 1px 2px black;
     }
 }
+.footer{
+  padding: 0;
+  box-shadow: 0 -2px 8px 0 rgba(0,0,0,0.75);
+  .footer-panel{
+    margin: 0;
+  }
+}
+
+
+        // index CSS
+
+
 .welcome-content{
   height: auto;
   background-color: #FFFFFF;
@@ -48,14 +61,6 @@ body{
     }
   }
 }
-.footer{
-  padding: 0;
-  box-shadow: 0 -2px 8px 0 rgba(0,0,0,0.75);
-  .footer-panel{
-    margin: 0;
-  }
-}
-
 @media only screen and (max-width: 767px){
   .locations{
     border: none !important;
@@ -66,24 +71,42 @@ body{
     margin-top: 0;
   }
 }
-
 .foodpic{
   margin-top: 20px;
   margin-bottom: 10px;
   border: 2px solid #6C2B19;
   box-shadow: 0 0 10px -1px rgba(0,0,0,0.75);
 }
-.foodpic1{
-  margin-top: 20px;
-  margin-bottom: 10px;
-  border: 2px solid #6C2B19;
-  box-shadow: 0 0 10px -1px rgba(0,0,0,0.75);
-  height: 169px;
-}
 .imgtext{
   text-align: center;
   font-weight: bold;
   font-size: 20px;
-  text-decoration: none;
-  color: black;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+
+          // menu CSS
+
+
+.menu-content {
+  height: 600px;
+  background-color: #FFFFFF;
+  .menu-header {
+    text-align: center;
+    font-size: 60px;
+  }
+  .sub-header{
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+    margin: 10px;
+  }
+}
+.divide-bar2{
+  height: 10px;
+  width: 100%;
+  background-color: #6C2B19;
 }
