@@ -61,6 +61,7 @@ body{
     }
   }
 }
+//!important is unfortunately necessary for this CSS to work.
 @media only screen and (max-width: 767px){
   .locations{
     border: none !important;
@@ -92,7 +93,7 @@ body{
 
 
 .menu-content {
-  height: 600px;
+  height: auto;
   background-color: #FFFFFF;
   .menu-header {
     text-align: center;
@@ -104,9 +105,39 @@ body{
     font-size: 16px;
     margin: 10px;
   }
+  .divide-bar2{
+    height: 10px;
+    width: 100%;
+    background-color: #6C2B19;
+  }
+  .menu-section {
+    border-bottom: 5px solid #6C2B19;
+  }
+  .main-menu p {
+    margin-left: 10px;
+  }
+  .food-image{
+    border: 2px solid #6C2B19;
+    box-shadow: 0 0 10px -1px rgba(0,0,0,0.75);
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .small-menu{
+    border-top: 5px solid #6C2B19;
+  }
+  .sides{
+    border-left: 5px solid #6C2B19;
+  }
 }
-.divide-bar2{
-  height: 10px;
-  width: 100%;
-  background-color: #6C2B19;
+//!important is unfortunately necessary for this CSS to work.
+@media only screen and (max-width: 991px){
+  .sides{
+    border: none !important;
+  }
+  .kids-meal{
+    border-bottom: 5px solid #6C2B19;
+  }
 }
+
+
+

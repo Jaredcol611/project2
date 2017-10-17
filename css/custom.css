@@ -67,7 +67,7 @@ body {
     color: black; }
 
 .menu-content {
-  height: 600px;
+  height: auto;
   background-color: #FFFFFF; }
   .menu-content .menu-header {
     text-align: center;
@@ -77,10 +77,29 @@ body {
     font-style: italic;
     font-size: 16px;
     margin: 10px; }
+  .menu-content .divide-bar2 {
+    height: 10px;
+    width: 100%;
+    background-color: #6C2B19; }
+  .menu-content .menu-section {
+    border-bottom: 5px solid #6C2B19; }
+  .menu-content .main-menu p {
+    margin-left: 10px; }
+  .menu-content .food-image {
+    border: 2px solid #6C2B19;
+    box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.75);
+    margin-bottom: 10px;
+    display: inline-block; }
+  .menu-content .small-menu {
+    border-top: 5px solid #6C2B19; }
+  .menu-content .sides {
+    border-left: 5px solid #6C2B19; }
 
-.divide-bar2 {
-  height: 10px;
-  width: 100%;
-  background-color: #6C2B19; }
+@media only screen and (max-width: 991px) {
+  .sides {
+    border: none !important; }
+
+  .kids-meal {
+    border-bottom: 5px solid #6C2B19; } }
 
 /*# sourceMappingURL=custom.css.map */
