@@ -8,51 +8,113 @@
     <script defer src="CDN/Jquery/jquery-3.2.1.min.js"></script>
     <script defer src="CDN/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/custom.css">
+    <script src="https://use.fontawesome.com/cf36c9dc69.js"></script>
 
 
 
 </head>
 <body>
 
-<nav class="navbar navbar-default">
+    <nav class="navbar navbar-default" id="top3">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Chubby's Neighborhood Cafe</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="events.html">Events</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Join the family!<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Franchise</a></li>
+                            <li><a href="#">Donate</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="http://www.chubbyscafeut.com/">Actual Site</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
     <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">Chubby's Neighborhood Cafe</a>
+        <div class="row">
+            <div class="col-lg-8 col-lg-push-2 col-md-8 col-md-push-2 col-sm-8 col-sm-push-2 col-xs-8 col-xs-push-2 page-content">
+                <h1 class="about">About us</h1>
+                <p class="about-p">When we were young, we remember our mother always had home cooked food on the table. Our favorite meal growing up was our mother’s chicken and dumplings made the good ole fashion way with Crisco and homemade chicken broth.</p>
+
+                <p class="about-p">Our mother grew up poor in the red hills of Mississippi.  What amazed us was that despite it all, she always made the best food out of nothing and taught us that you never have to compromise taste to save money.</p>
+
+                <p class="about-p">Some of our favorite food was what we call "poor man’s food"; fried bologna sandwiches, homemade biscuits with tomato gravy, rice with SOS gravy, all of which our mother made on a regular basis growing up in the south.</p>
+
+                <p class="about-p">When we opened Chubby’s Cafe, we set out to give people a chance to taste the flavor of the south through the food they were familiar with. Our Burgers are ground fresh and never frozen, and our chicken breasts are hand battered and seasoned with a selection of our secret southern spices.</p>
+
+                <p class="about-p">We feel our success stems from staying true to our roots and cooking with only the freshest ingredients and southern spices.  We always look forward serving you the best we have to offer.  Hope to see you soon!</p>
+
+
+
+                <h2 class="about">Contact us</h2>
+                <p class="about-p">Give use some feedback. We'd love to hear your suggestions, or how your experience was at our store!</p>
+
+
+                <div class="row">
+                    <div class="col-lg-8 col-md-8">
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Fist Name" id="example-text-input">
+                        </div>
+                        <div class="form-group">
+                            <div class="col-10">
+                                <input class="form-control" type="text" placeholder="Last Name" id="example-text-input">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-10">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleTextarea" placeholder="Comments..." rows="4"></textarea>
+                        </div>
+                            <button type="submit" class="btn btn-danger">Submit</button>
+                    </div>
+                </div>
+
+
+                <h2 class="about">Chubby's Promise</h2>
+                <p class="about-p">We promise to consistently strive to offer top-notch customer service, high-quality food in a warm and friendly atmosphere.</p>
+                <p class="social">Check us out on social media!</p>
+                <p>
+                    <a href="https://www.facebook.com/" class="social-link" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true" style="font-size: 30px"></i></a>
+                    <a href="https://www.linkedin.com/" class="social-link" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true" style="font-size: 30px"></i></a>
+                    <a href="https://twitter.com/?lang=en" class="social-link" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true" style="font-size: 30px"></i></a>
+                </p>
+            </div>
         </div>
+    </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="events.html">Events</a></li>
-            </ul>
-
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="contact.html">Contact</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Join the family!<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Franchise</a></li>
-                        <li><a href="#">Donate</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="http://www.chubbyscafeut.com/">Actual Site</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
-
-
+    <footer>
+        <div class="container-fluid footer">
+            <div class="panel panel-default footer-panel">
+                <div class="panel-body"><a href="#top3">Chubby's Neighborhood Cafe</a></div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

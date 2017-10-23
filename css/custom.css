@@ -17,6 +17,10 @@ body {
   .footer .footer-panel {
     margin: 0; }
 
+.panel-body a {
+  text-decoration: none;
+  color: #777777; }
+
 .welcome-content {
   height: auto;
   background-color: #FFFFFF; }
@@ -65,20 +69,23 @@ body {
   .imgtext a {
     text-decoration: none;
     color: black; }
+  .imgtext a:hover {
+    color: #6C2B19;
+    text-decoration: underline; }
 
 .menu-content {
   height: auto;
   background-color: #FFFFFF; }
   .menu-content .menu-header {
     text-align: center;
-    font-size: 60px; }
+    font-size: 50px; }
   .menu-content .sub-header {
     text-align: center;
     font-style: italic;
     font-size: 16px;
     margin: 10px; }
   .menu-content .divide-bar2 {
-    height: 10px;
+    height: 5px;
     width: 100%;
     background-color: #6C2B19; }
   .menu-content .menu-section {
@@ -101,5 +108,55 @@ body {
 
   .kids-meal {
     border-bottom: 5px solid #6C2B19; } }
+.shake-list {
+  margin-bottom: 0; }
+
+@media only screen and (max-width: 400px) {
+  .shake-list {
+    margin-bottom: 10px; } }
+.page-content {
+  height: auto;
+  background-color: #FFFFFF; }
+
+.about {
+  border-bottom: 5px solid #6C2B19; }
+
+.input1 {
+  display: block;
+  width: 400px;
+  font-size: 1em;
+  padding-left: 7px;
+  border-radius: 7px;
+  margin-bottom: 2px;
+  box-shadow: 1px 1px 2px black; }
+
+.input2 {
+  width: 400px;
+  height: 150px;
+  font-size: 1em;
+  padding-left: 7px;
+  margin-bottom: 2px;
+  border-radius: 7px;
+  box-shadow: 1px 1px 2px black; }
+
+.submit {
+  display: block;
+  font-size: 1em;
+  width: 150px;
+  height: 50px;
+  margin-bottom: 6px;
+  box-shadow: 1px 1px 2px black; }
+
+.social {
+  width: 215px;
+  border-top: 2px solid #6C2B19;
+  padding-top: 5px;
+  margin-bottom: 5px; }
+
+.social-link {
+  color: black; }
+
+.social-link:visited {
+  color: black; }
 
 /*# sourceMappingURL=custom.css.map */

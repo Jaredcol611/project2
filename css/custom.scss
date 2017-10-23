@@ -20,6 +20,10 @@ body{
     margin: 0;
   }
 }
+.panel-body a{
+  text-decoration: none;
+  color: #777777;
+}
 
 
         // index CSS
@@ -86,6 +90,10 @@ body{
     text-decoration: none;
     color: black;
   }
+  a:hover{
+    color: #6C2B19;
+    text-decoration: underline;
+  }
 }
 
 
@@ -97,8 +105,8 @@ body{
   background-color: #FFFFFF;
   .menu-header {
     text-align: center;
-    font-size: 60px;
-  }
+    font-size: 50px;
+    }
   .sub-header{
     text-align: center;
     font-style: italic;
@@ -106,7 +114,7 @@ body{
     margin: 10px;
   }
   .divide-bar2{
-    height: 10px;
+    height: 5px;
     width: 100%;
     background-color: #6C2B19;
   }
@@ -129,6 +137,7 @@ body{
     border-left: 5px solid #6C2B19;
   }
 }
+
 //!important is unfortunately necessary for this CSS to work.
 @media only screen and (max-width: 991px){
   .sides{
@@ -138,6 +147,61 @@ body{
     border-bottom: 5px solid #6C2B19;
   }
 }
+.shake-list{
+  margin-bottom: 0; //FIX THIS
+}
+@media only screen and (max-width: 400px){
+  .shake-list{
+    margin-bottom: 10px;
+  }
+}
 
+      //    About CSS
 
+.page-content{
+  height: auto;
+  background-color: #FFFFFF;
+}
+.about{
+  border-bottom: 5px solid #6C2B19;
+}
+.input1 {
+  display: block;
+  width: 400px;
+  font-size: 1em;
+  padding-left: 7px;
+  border-radius: 7px;
+  margin-bottom: 2px;
+  box-shadow: 1px 1px 2px black;
+}
 
+.input2 {
+  width: 400px;
+  height: 150px;
+  font-size: 1em;
+  padding-left: 7px;
+  margin-bottom: 2px;
+  border-radius: 7px;
+  box-shadow: 1px 1px 2px black;
+}
+
+.submit {
+  display: block;
+  font-size: 1em;
+  width: 150px;
+  height: 50px;
+  margin-bottom: 6px;
+  box-shadow: 1px 1px 2px black;
+}
+.social{
+  width: 215px;
+  border-top: 2px solid #6C2B19;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+.social-link{
+  color: black;
+}
+.social-link:visited{
+  color: black;
+}
